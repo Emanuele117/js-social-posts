@@ -5,14 +5,16 @@
 }
 
 body {
-    background-color: darkslateblue;
+    background-color: #102F45;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .social {
     color: white;
-    font-size: 35px;
+    font-size: 50px;
     margin-top: 2rem;
     text-align: center;
+    font-weight: bold;
 }
 
 .post1 {
@@ -20,6 +22,7 @@ body {
     width: 600px;
     height: 500px;
     margin: 2rem auto;
+    filter: drop-shadow(1px 2px 4px white);
 }
 
 .hero_image {
@@ -36,9 +39,20 @@ body {
     margin-top: 2rem;
 }
 
+.like {
+    font-weight: bold;
+    font-size: 14px
+}
+
+.total_likes {
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .testo {
     padding: 25px;
     margin-top: 1rem;
+    font-weight: 20px;
 }
 
 .avatar {
@@ -55,7 +69,9 @@ body {
 
 .data_creazione_post {
     margin-left: 105px;
-    margin-top: -35px;
+    margin-top: -30px;
+    opacity: 60%;
+    font-size: 14px;
 }
 
 .img {

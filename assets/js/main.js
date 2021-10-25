@@ -18,9 +18,9 @@ const socialPosts = [
     {
         nomeUtente: 'Phil Mangione',
         dataCrezione: '4 mesi fa',
-        avatar: 'https://unsplash.it/300/300?image=',
-        contenuto: 'lorem ipsum dolor',
-        immagine: 'https://unsplash.it/300/300?image=',
+        avatar: 'https://i.picsum.photos/id/608/300/300.jpg?hmac=e97yEcy-vQTdkO2Q_aYHzzk30CD8spgoTrq-DPlSrjk',
+        contenuto: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque corrupti amet blanditiis aspernatur nihil enim.',
+        immagine: 'https://i.picsum.photos/id/522/300/300.jpg?hmac=RnPprwDoju-HwXnfFGZz0H4Pv82PkYEmAhh9JyB4iNw',
         numeroLikes: 'piace a 80 persone'
 
 
@@ -29,19 +29,20 @@ const socialPosts = [
         nomeUtente: 'Sofia Perlari',
         dataCrezione: '2 mesi fa',
         avatar: 'https://unsplash.it/300/300?image=',
-        contenuto: 'lorem ipsum dolor',
-        immagine: 'https://unsplash.it/300/300?image=',
+        contenuto: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque corrupti amet blanditiis aspernatur nihil enim.',
+        immagine: 'https://i.picsum.photos/id/637/300/300.jpg?hmac=x-Lt1sGGm9hYzKtIV210a6Rdow959eDq4qGM1ROs6a8',
         numeroLikes: 'piace a 70 persone'
     },
     {
         nomeUtente: 'paolo corridori',
         dataCrezione: '4 mesi fa',
-        avatar: 'https://unsplash.it/300/300?image=',
-        contenuto: 'lorem ipsum dolor',
+        avatar: 'https://i.picsum.photos/id/495/300/300.jpg?hmac=A9YVCMdxoYv0Ck6HxE28k5rQuCh0JliJ8KcpSer_Nsg',
+        contenuto: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque corrupti amet blanditiis aspernatur nihil enim.',
         immagine: 'https://unsplash.it/300/300?image=',
         numeroLikes: 'piace a 100 persone'
     }
 ]
+
 
 for (let index = 0; index < socialPosts.length; index++) {
     const utenti = socialPosts[index];
@@ -58,8 +59,8 @@ for (let index = 0; index < socialPosts.length; index++) {
                 <img src="${utenti.immagine}" alt="" class="img">
             </div>
             <div class="likes">
-                <span id="like"> &#128077; mi piace</span>
-                <span id="total_likes">${utenti.numeroLikes}</span>
+                <span class="like"> &#128077; mi piace</span>
+                <span class="total_likes">${utenti.numeroLikes}</span>
             </div>
         </div>
         
