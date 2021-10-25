@@ -21,3 +21,20 @@ body {
     height: 500px;
     margin: 2rem auto;
 }
+
+.hero_image {
+    width: 550px;
+    height: 300px;
+    margin: auto;
+}
+
+.likes {
+    margin: auto;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.testo {
+    padding: 25px;
+}

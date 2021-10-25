@@ -47,17 +47,21 @@ for (let index = 0; index < socialPosts.length; index++) {
     const utenti = socialPosts[index];
 
     const element = `
-    <div class="post1">
-        <div class="avatar_nome">
-            <img src="https://unsplash.com/photos/XHwGoF0B_uo" alt="" class="avatar"> 
-            <h3 class="nome_utente">Phil mangione</h3>
-            <p class="data_creazione_post">4 mesi fa</p>
-        </div>    
-        <p class="testo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui atque doloremque voluptatum eveniet quae perspiciatis obcaecati.</p>
-        <img src="https://unsplash.com/photos/t3ixVevEi6s" alt="" class="img">
-        <span id="like">mi piace</span>
-        <span id="total_likes">Piace a 80 persone</span>
-    </div>
+        <div class="post1">
+            <div class="avatar_nome">
+                <img src="${utenti.avatar}" alt="" class="avatar"> 
+                <h3 class="nome_utente">${utenti.nomeUtente}</h3>
+                <p class="data_creazione_post">${utenti.dataCrezione}</p>
+            </div>    
+            <p class="testo">${utenti.contenuto}</p>
+            <div class="hero_image">
+                <img src="${utenti.immagine}" alt="" class="img">
+            </div>
+            <div class="likes">
+                <span id="like">mi piace</span>
+                <span id="total_likes">${utenti.numeroLikes}</span>
+            </div>
+        </div>
         
     `
 
