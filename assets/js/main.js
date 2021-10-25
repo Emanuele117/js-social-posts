@@ -18,9 +18,9 @@ const socialPosts = [
     {
         nomeUtente: 'Phil Mangione',
         dataCrezione: '4 mesi fa',
-        avatar: 'https://unsplash.com/photos/XHwGoF0B_uo',
+        avatar: 'https://unsplash.it/300/300?image=',
         contenuto: 'lorem ipsum dolor',
-        immagine: 'https://unsplash.com/photos/t3ixVevEi6s',
+        immagine: 'https://unsplash.it/300/300?image=',
         numeroLikes: 'piace a 80 persone'
 
 
@@ -28,17 +28,17 @@ const socialPosts = [
     {
         nomeUtente: 'Sofia Perlari',
         dataCrezione: '2 mesi fa',
-        avatar: 'https://unsplash.com/photos/XHwGoF0B_uo',
+        avatar: 'https://unsplash.it/300/300?image=',
         contenuto: 'lorem ipsum dolor',
-        immagine: 'https://unsplash.com/photos/t3ixVevEi6s',
+        immagine: 'https://unsplash.it/300/300?image=',
         numeroLikes: 'piace a 70 persone'
     },
     {
         nomeUtente: 'paolo corridori',
         dataCrezione: '4 mesi fa',
-        avatar: 'https://unsplash.com/photos/XHwGoF0B_uo',
+        avatar: 'https://unsplash.it/300/300?image=',
         contenuto: 'lorem ipsum dolor',
-        immagine: 'https://unsplash.com/photos/t3ixVevEi6s',
+        immagine: 'https://unsplash.it/300/300?image=',
         numeroLikes: 'piace a 100 persone'
     }
 ]
@@ -51,14 +51,14 @@ for (let index = 0; index < socialPosts.length; index++) {
             <div class="avatar_nome">
                 <img src="${utenti.avatar}" alt="" class="avatar"> 
                 <h3 class="nome_utente">${utenti.nomeUtente}</h3>
+                </div>    
                 <p class="data_creazione_post">${utenti.dataCrezione}</p>
-            </div>    
             <p class="testo">${utenti.contenuto}</p>
             <div class="hero_image">
                 <img src="${utenti.immagine}" alt="" class="img">
             </div>
             <div class="likes">
-                <span id="like">mi piace</span>
+                <span id="like"> &#128077; mi piace</span>
                 <span id="total_likes">${utenti.numeroLikes}</span>
             </div>
         </div>
